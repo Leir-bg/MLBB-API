@@ -1,0 +1,19 @@
+{
+  "name": "mlbb-api",
+  "version": "0.0.1",
+  "description": "Unofficial API for MLBB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leir-bg/MLBB-API.git"
+  },
+  "author": "Leir-bg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leir-bg/MLBB-API/issues"
+  },
+  "homepage": "https://github.com/Leir-bg/MLBB-API#readme"
+}

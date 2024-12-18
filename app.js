@@ -6,11 +6,7 @@ const path = require('path')
 const app = express()
 
 app.get('/', (req, res) => {
-	res.sendFile(path.join(__dirname, './pages/landing.html'))
-})
-
-app.route('/api').get((req, res) => {
-	res.json({ message: 'redirect to api landing page' })
+	res.redirect('/api')
 })
 
 app.use('/api', routes)

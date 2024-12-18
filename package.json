@@ -2,7 +2,7 @@
   "name": "mlbb-api",
   "version": "0.0.1",
   "description": "Unofficial API for MLBB",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Leir-bg/MLBB-API/issues"
   },
-  "homepage": "https://github.com/Leir-bg/MLBB-API#readme"
+  "homepage": "https://github.com/Leir-bg/MLBB-API#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
 }

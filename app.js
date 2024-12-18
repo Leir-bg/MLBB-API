@@ -6,7 +6,7 @@ const path = require('path')
 const app = express()
 
 app.get('/', (req, res) => {
-	res.redirect('/api')
+	res.redirect('/api/')
 })
 
 app.use('/api', routes)

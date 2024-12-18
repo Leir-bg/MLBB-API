@@ -2,6 +2,8 @@ const path = require('path')
 const fs = require('fs')
 const DATA_PATH = require('../config.js').datapath
 
+console.log(DATA_PATH)
+
 class DataController{
     serveData(filename){
         let filepath

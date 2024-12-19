@@ -8,7 +8,7 @@
          "emblem_name":"Physical",
          "icon":"/emblems/physical.png",
          "emblem_role":"physical",
-         "id":"001",
+         "id":"1",
          "modifiers":[
             {
                "physical_attack":"14.00",
@@ -103,7 +103,7 @@
          "emblem_name":"Magic",
          "icon":"/emblems/magic.png",
          "emblem_role":"magic",
-         "id":"002",
+         "id":"2",
          "modifiers":[
             {
                "magic_power":"14.00",
@@ -199,7 +199,7 @@
          "emblem_name":"Tank",
          "icon":"/emblems/tank.png",
          "emblem_role":"tank",
-         "id":"003",
+         "id":"3",
          "modifiers":[
             {
                "physical_defense":"10",
@@ -302,7 +302,7 @@
          "emblem_name":"Jungle",
          "icon":"/emblems/jungle.png",
          "emblem_role":"jungle",
-         "id":"004",
+         "id":"4",
          "modifiers":[
             {
                "movement_speed":"6%",
@@ -407,7 +407,7 @@
          "emblem_name":"Assassin",
          "icon":"/emblems/assassin.png",
          "emblem_role":"assassin",
-         "id":"005",
+         "id":"5",
          "modifiers":[
             {
 
@@ -506,7 +506,7 @@
          "emblem_name":"Mage",
          "icon":"/emblems/mage.png",
          "emblem_role":"mage",
-         "id":"006",
+         "id":"6",
          "modifiers":[
             {
                "movement_speed":"2.00%",
@@ -609,7 +609,7 @@
          "emblem_name":"Fighter",
          "icon":"/emblems/fighter.png",
          "emblem_role":"fighter",
-         "id":"007",
+         "id":"7",
          "modifiers":[
             {
                "physical_attack":"16.00",
@@ -712,7 +712,7 @@
          "emblem_name":"Support",
          "icon":"/emblems/support.png",
          "emblem_role":"support",
-         "id":"008",
+         "id":"8",
          "modifiers":[
             {
 
@@ -813,7 +813,7 @@
          "emblem_name":"Marksman",
          "icon":"/emblems/marksman.png",
          "emblem_role":"marksman",
-         "id":"009",
+         "id":"9",
          "modifiers":[
             {
                "physical_attack":"17.00",

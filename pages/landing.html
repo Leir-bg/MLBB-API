@@ -3,18 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MLBB API</title>
+    <title>MLBB Unofficial API</title>
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="wrapper">
-        <h1>MLBB API</h1>
-        <hr>
-        <ul>
-            <li><a href="/api">Api</a></li>
-            <li><a href="/api/emblems">Emblems</a></li>
-            <li><a href="/api/heroes">Heroes</a></li>
-            <li><a href="/api/items">Items</a></li>
-        </ul>
+    <header>
+        <nav>
+            <a href="/"><img src="assets/logo.png" alt="mlbb logo"></a>
+            <ul>
+                <li><a href="javascript:;">Endpoints</a></li>
+                <li><a href="javascript:;">Updates</a></li>
+                <li><a href="/api/about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="wrapper">
+            <h1>Land of Dawn API.</h1>
+
+            <div>
+                <h2>Basic endpoints:</h2>
+
+                <div class="samples">
+                    <h3>Heroes</h3>
+                    <div class="request_block">
+                        <code class="curl">$curl https://mlbb-api-41ft.onrender.com/api/heroes</code>
+                        <button class="run_curl">Run</button>
+                    </div>
+                </div>
+
+                <div class="samples">
+                    <h3>Items</h3>
+                    <div class="request_block">
+                        <code class="curl">$curl https://mlbb-api-41ft.onrender.com/api/items</code>
+                        <button class="run_curl">Run</button>
+                    </div>
+                </div>
+
+                <div class="samples">
+                    <h3>Emblems</h3>
+                    <div class="request_block">
+                        <code class="curl">$curl https://mlbb-api-41ft.onrender.com/api/items</code>
+                        <button class="run_curl">Run</button>
+                    </div>
+                </div>
+                
+                <p>For the complete list of endpoints, <a href="/api/endpoints">click here</a>.</p>
+            </div>
+            <div class="curl_result"></div>
+        </main>
     </div>
+    <footer>
+        <p>&copy; 2024 MLBB Unofficial API</p>
+        <script src="scripts/script.js"></script>
+    </footer>
 </body>
 </html>
